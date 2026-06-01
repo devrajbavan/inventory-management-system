@@ -11,6 +11,18 @@ A production-ready, fully containerized full-stack application for managing **pr
 
 ---
 
+## 🚀 Live Deployment
+
+| Service | URL |
+| --- | --- |
+| **Frontend** | https://inventory-system-gamma-eight.vercel.app/ |
+| **Backend API** | https://inventory-management-system-1-52hr.onrender.com |
+| **API docs (Swagger)** | https://inventory-management-system-1-52hr.onrender.com/docs |
+
+**Login credentials:** `admin@inventorypro.com` / `admin123`
+
+---
+
 ## Quick start (Docker Compose)
 
 ```bash
@@ -24,7 +36,7 @@ docker compose up --build
 | Backend API | http://localhost:8000 |
 | API docs (Swagger) | http://localhost:8000/docs |
 
-**Login:** `admin@inventorypro.com` / `admin123` (credentials are pre-filled on the login screen and configurable via env vars). The database is auto-created and seeded with demo products/customers on first boot.
+**Login:** `admin@inventorypro.com` / `admin123` (credentials are pre-filled on the login screen and configurable via env vars). The database is auto-created and seeded with demo products/customers.
 
 ---
 
